@@ -1,4 +1,6 @@
 plot1<-function() {
+    # set working dir for this homework
+    setwd('~/Documentazione/Data Science/Exploratory Data Analysis/hw/exdata-data-household_power_consumption/')
     # Go to read data from file in dataframe dataToBePlot
     # Avoid loadin unnecessary data skipping 66637 rows, and reading next 2880
     # For sure is not parametric, but the target was construct a simple and quick script
@@ -37,6 +39,6 @@ plot1<-function() {
     
     # save histogram into plot1.png file into working dir
     # default res for png in R are 480x480 as required
-    dev.copy(png,"plot1.png")
+    # dev.copy(png,"plot1.png")
     dev.off()
 }

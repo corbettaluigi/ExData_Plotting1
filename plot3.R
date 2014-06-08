@@ -54,7 +54,7 @@ plot3<-function() {
            lwd=c(2.5,2.5,2.5),
            col=c("black", "blue","red"), 
            y.intersp=0.8,
-           x.intersp=0.8,
+           x.intersp=1,
            cex=0.8)    
     # save histogram into plot1.png file into working dir
     # default res for png in R are 480x480 as required
